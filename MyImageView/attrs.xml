@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+
+    <attr name="image" format="reference"/>
+    <attr name="imageLocation" >
+        <enum name="fillxy" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <attr name="titleSize" format="dimension"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="title" format="string"/>
+
+    <declare-styleable name="MyImageView">
+        <attr name="image"/>
+        <attr name="imageLocation"/>
+        <attr name="titleSize"/>
+        <attr name="titleColor"/>
+        <attr name="title"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/minto.com.createview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <minto.com.createview.view.MyImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:image="@mipmap/test"
+        custom:title="你好萨达法的撒法大撒范德萨发大撒范德萨发的撒范德萨法的撒法萨达范德萨发撒的发第三方"
+        custom:titleSize="20dp"
+        custom:imageLocation="fillxy"
+        custom:titleColor="@color/colorPrimary"/>
+</RelativeLayout>

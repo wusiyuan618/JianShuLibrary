@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#458632"
+    android:orientation="vertical"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="区域裁剪"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="横屏旋转"/>
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:text="签名区域裁剪(白边距为10px)："/>
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="320dp"
+        android:scaleType="centerInside"
+        android:background="#FFFFFF"
+        android:layout_height="160dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="横屏签名："/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="320dp"
+        android:background="#FFFFFF"
+        android:scaleType="centerInside"
+        android:layout_height="160dp" />
+</LinearLayout>

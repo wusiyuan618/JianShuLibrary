@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="content" format="string" />
+    <attr name="contentColor" format="color" />
+    <attr name="contentSize" format="dimension" />
+    <attr name="contentBackgroundColor" format="color"/>
+
+    <declare-styleable name="VerificationCode">
+        <attr name="content" />
+        <attr name="contentColor" />
+        <attr name="contentSize" />
+        <attr name="contentBackgroundColor"/>
+    </declare-styleable>
+</resources>

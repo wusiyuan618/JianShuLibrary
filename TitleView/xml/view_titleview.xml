@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_titleview"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titleHeight"
+    android:background="@color/titleViewBackgroundColor"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/titleview_ll_back"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/titleview_img_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/arrow_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/titleview_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/titleTextBackgroundColor"
+            android:textSize="@dimen/textSize_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titleview_ll_more"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/titleview_img_more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/titleview_moreimg" />
+    </LinearLayout>
+</LinearLayout>
