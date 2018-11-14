@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nullpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/arrow_left"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@style/webViewProgrossBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/reloadpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/errorimg"
+                android:layout_width="92dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/notpage" />
+
+            <TextView
+                android:id="@+id/reload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="重新加载"
+                android:textColor="#0072b0"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
